@@ -1,0 +1,162 @@
+$yellow-theme-color: #ffe65e;
+
+
+#homepage
+{
+    background-image:url(../../../storage/app/public/img/Assets/Background.png);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.form-main
+{
+     margin-left: 300px;
+    text-align: center;
+}
+.form-panel
+{
+    margin:150px;
+}
+
+.form-group
+{
+    display: inline-table;
+}
+
+.formfields
+{
+    background-color: transparent;
+    -webkit-box-shadow: none!important;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color:#fff!important;
+}
+
+
+   ::-webkit-input-placeholder { /* Chrome */
+  color: #fff;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #fff;
+}
+
+.btn-forms
+{
+    background-color: $yellow-theme-color;
+    width: 170px;
+    height: 40px;
+    border-radius: 20px!important;
+    font-weight: bold!important;
+    color: #000!important;
+    border-color: transparent!important;
+
+}
+.btn-forms:hover{
+    background-color: #d2c372;
+}
+
+.title-head
+{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+#footer-signup
+{
+    position: fixed;
+    bottom: 1px;
+    display: inline-flex;
+    left: 40%;
+}
+
+.text-link
+{
+    color:$yellow-theme-color;
+    display: inline-block;
+}
+
+#btn-logout
+{
+    height: 40px!important;
+    width: 40px;
+    color: #000;
+    background-color: #b2cffb;
+    border-color: transparent;
+    letter-spacing: 2px;
+}
+
+#btn-logout:hover
+{
+    background-color: #88a5e2;
+    border-color: transparent;
+}
+
+.alink
+{
+    color: #000;
+    text-decoration: none;
+}
+
+.alink:hover
+{
+    color: #696666!important;
+    text-decoration: none!important;
+}
+
+.containers
+{
+    border: $yellow-theme-color solid 3px!important;
+    background-color: #ffffffba!important;
+    padding: 0px!important;
+    margin-left: 21px;
+    margin-bottom: 40px;
+    
+}
+
+.top-bar
+{
+    border: $yellow-theme-color solid 1px;
+    background-color: $yellow-theme-color!important;
+    font-weight: bold;
+    text-align: center;
+}
+
+.avatar
+{
+    max-width: 150px;
+    margin: 30px;
+    height: auto;
+}
+
+#avatar-upload
+{
+    width: 421px;
+    height: 238px;
+    z-index: 9;
+    opacity: 0;
+    position: absolute;
+    top: 4px;
+    left: 17px;
+    cursor: pointer;
+}
+
+#label-avatar
+{
+    background-image:url(../../../storage/app/public/img/Assets/Add_picture.png);
+    width: 421px;
+    height: 238px;
+}
