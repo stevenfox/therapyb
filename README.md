@@ -5,7 +5,7 @@ therapy challenge, laravel PHP
 * Sing in / Sign up
 * DB design
 * Visual Design implementation
-* Welcome message 'Good Day `{{Auth::user()->username}`;
+* Welcome message 'Good Day `{{Auth::user()->username}}`;
 * Photo Avatar Upload with user
 
 # Uncompleted Tasks
